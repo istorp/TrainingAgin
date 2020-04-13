@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Hosting;
+using System;
 
 namespace TrainingAgin
 {
@@ -8,5 +9,6 @@ namespace TrainingAgin
         {
             Console.WriteLine("Hello World!");
         }
+        public static IHostBuilder
     }
 }
